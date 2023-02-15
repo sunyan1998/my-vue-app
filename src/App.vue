@@ -26,11 +26,10 @@ export default defineComponent({
 <template>
   <div id="home">
     <!-- <Toast :titleText="name"/> -->
-    <div class="box" v-tooltip="{content: 'left提示3333333333333333333333333333333333333', color:'white', bgColor: 'black', pos: 'left'}">left提示</div>
+    <div class="box" v-toast="{content: 'left提示3333', color:'white', bgColor: 'black', pos: 'left'}">left提示</div>
   </div>
  
 </template>
 
 <style scoped lang="less">
-
 </style>
